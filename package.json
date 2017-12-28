@@ -1,0 +1,12 @@
+{
+  "name": "adaptiv",
+  "version": "0.1",
+  "description": "Graph engine",
+  "main": "index.js",
+  "repository": "https://github.com/chriscouch/adaptiv.git",
+  "author": "chris-couch <couchc@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "start" : "node ."
+  }
+}
