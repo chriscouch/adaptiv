@@ -1,6 +1,6 @@
 {
   "name": "adaptiv",
-  "version": "0.1",
+  "version": "1.1.1",
   "description": "Graph engine",
   "main": "index.js",
   "repository": "https://github.com/chriscouch/adaptiv.git",
@@ -13,7 +13,7 @@
     "prod:build": "rimraf lib && babel src -d lib --ignore .test.js",
     "prod:start": "cross-env NODE_ENV=production pm2 start lib/server && pm2 logs",
     "prod:stop": "pm2 delete server",
-    "prepush" : "yarn test && yarn prod:build"
+    "prepush": "yarn test && yarn prod:build"
   },
   "browserslist": [
     "> 1%"
